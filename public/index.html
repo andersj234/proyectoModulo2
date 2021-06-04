@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>proyecto modulo 2</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="contenedor">
+      <header>
+        <div id="mover">
+          <div id="titulo">
+            <h1>naik</h1>
+          </div>
+          <div id="barraNavegacion">
+            <nav id="barras">
+              <a href="./buscador.html">buscador</a>
+              <a href="#tendencias">imagenes</a>
+              <a href="#contacto">contacto</a>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div id="registro">
+          <div>
+            <h2>Introduce tus datos para el registro</h2>
+          </div>
+          <div id="inputs">
+            <h3>mail:</h3>
+            <input type="text" placeholder="introduce un mail" id="mail" />
+            <h3>usuario:</h3>
+            <input
+              type="text"
+              placeholder="introduce un nombre de usuario"
+              id="user"
+            />
+            <h3>contraseña:</h3>
+            <input
+              type="text"
+              placeholder="introduce una contraseña"
+              id="password"
+            />
+            <button onclick="anyadirUsuario()">añadir</button>
+          </div>
+          <div id="feedback2"></div>
+          <div id="contenidoUsuario"></div>
+        </div>
+        <div id="imgContenedor">
+          <div id="colores">
+            <img
+              src="./imagenes/Air-Max-270-React-zapatillas-nike-3.jpg"
+              alt="zapatilla"
+            />
+          </div>
+          <div id="colores2">
+            <img
+              src="./imagenes/sportswear-club-fleece-jogger-6wr1Jb.jpg"
+              alt="pantalón"
+            />
+          </div>
+        </div>
+        <div id="pasarPagina">
+          <a href="./buscador.html">pasarPagina</a>
+        </div>
+      </main>
+      <footer>
+        <div class="informacion">
+          <address id="contacto">
+            <h3>Contacto</h3>
+            <p>telf: xxx xxx xxx</p>
+            <p>Fax: xxxxxx xxxxx</p>
+            <p>Gmail: cosas@gmail.com</p>
+            <p>Instagram: manolito</p>
+          </address>
+          <div class="politicas">
+            <h3>Nuestras politicas</h3>
+            <div id="separar">
+              <p>
+                <a
+                  href="https://specials.mediamarkt.es/nuestra-empresa/trabaja-con-nosotros"
+                  >Trabaja con nosotros</a
+                >
+              </p>
+              <p><a href="https://www.google.com/">Protección de datos</a></p>
+              <p><a href="https://www.dgt.es/es/">Otros servicios</a></p>
+            </div>
+          </div>
+        </div>
+        <!--<div id="footerContainer">
+        <div id="nuestraEmpresa">
+          <h3>Nuestra empresa</h3>
+          <p><a href="">trabaja con nosotros</a></p>
+        </div>
+        <div id="ayuda">
+          <h3>ayuda</h3>
+          <a href="">Devoluciones</a>
+          <a href="">Estado del pedido</a>
+          <a href="">contacto</a>
+        </div>
+        
+        <div id="imageFooter">
+          <img src="./imagenes/Naik-detalle.gif" alt="marca de agua">
+          <img src="./imagenes/descarga.png" alt="marca">
+        </div>
+      </div>-->
+      </footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

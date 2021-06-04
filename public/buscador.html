@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buscador</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="contenedor">
+        <header>
+            <div id="mover">
+                <div id="titulo">
+                  <h1>naik</h1>
+                </div>
+                <div id="barraNavegacion">
+                  <nav id="barras">
+                    <a href="./index.html">pagina principal</a>
+                    <a href="#contenido">zapatillas</a>
+                    <a href="#footerContainer">contacto</a>
+                  </nav>
+                </div>
+              </div>
+        </header>
+        <main>
+            <div id="buscador">
+                <h2>Buscador</h2>
+                <div id="boton">
+                    <input type="text" placeholder="introduce las zapatillas" id="zapatillas">
+                    <input type="text" placeholder="añade el precio de las zapatillas" id="precio">
+                    <div>
+                    <button onclick="mostrarProducto()">buscar las zapatillas que quieres</button>
+                    <button onclick="anyadirProducto()">añadir a la base de datos</button>
+                    <button onclick="editarFinal()">Editar el precio del producto</button>
+                    </div>
+                </div>
+            </div>
+      
+            <div id="feedback">
+            </div>
+            <div id="contenido">
+                <!--aqui ira la ruta get del usuario-->
+                <h3>sustituir por el contenido de la ruta app.get o router como lo hagamos</h3>
+            </div>
+            <div id="feedback2">
+
+            </div>
+            <div id="pasarPagina">
+                <a href="./index.html">volver a la pagina principal</a>
+            </div>
+        </main>
+        <footer>
+          <div class="informacion">
+            <address id="contacto">
+              <h3>Contacto</h3>
+              <p>telf: xxx xxx xxx</p>
+              <p>Fax: xxxxxx xxxxx</p>
+              <p>Gmail: cosas@gmail.com</p>
+              <p>Instagram: manolito</p>
+            </address>
+            <div class="politicas">
+              <h3>Nuestras politicas</h3>
+              <div id="separar">
+                <p>
+                  <a
+                    href="https://specials.mediamarkt.es/nuestra-empresa/trabaja-con-nosotros"
+                    >Trabaja con nosotros</a
+                  >
+                </p>
+                <p><a href="https://www.google.com/">Protección de datos</a></p>
+                <p><a href="https://www.dgt.es/es/">Otros servicios</a></p>
+              </div>
+            </div>
+          </div>
+        </footer>
+    </div>
+    <script src="buscador.js"></script>
+</body>
+</html>

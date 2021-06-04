@@ -1,0 +1,257 @@
+body {
+  margin: 0px;
+}
+
+#contenedor {
+  max-width: 100%;
+}
+
+#titulo {
+  background-color: aqua;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 600px;
+  margin-right: 600px;
+}
+#titulo {
+  border-style: solid;
+}
+
+#barraNavegacion {
+  margin-top: 100px;
+  background-color: brown;
+  border-radius: 8px;
+  padding: 8px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#barras {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  background-color: chocolate;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: initial;
+  border-radius: 10px;
+}
+
+#mover {
+  padding: 50px;
+}
+#registro {
+  border-top-style: solid;
+  border-width: 2px;
+  display: grid;
+  justify-content: center;
+  background-color: aqua;
+}
+
+#registro h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#inputs {
+  display: grid;
+  justify-content: center;
+}
+
+#inputs input {
+  margin: 10px;
+}
+
+#inputs h3 {
+  display: grid;
+  justify-content: center;
+}
+#inputs button {
+  margin: 30px;
+}
+
+#imgContenedor {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  border-top-style: solid;
+  border-width: 2px;
+}
+
+#imgContenedor img {
+  width: 300px;
+  height: 300px;
+  background-color: lightgreen;
+}
+
+#colores {
+  background-color: aquamarine;
+  padding: 50px;
+  border-radius: 20px;
+  border-style: dotted;
+  border-width: 2px;
+}
+
+#pasarPagina{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#colores2 {
+  background-color: aquamarine;
+  padding: 50px;
+  border-radius: 20px;
+  border-style: dotted;
+  border-width: 2px;
+}
+
+footer {
+  background-color: lightcoral;
+}
+
+#footerContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#imageFooter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+#imageFooter img {
+  margin: auto;
+  padding: 10px;
+  height: 200px;
+  width: 200px;
+ 
+}
+
+#ayuda {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+   
+}
+
+#nuestraEmpresa {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+#buscador{
+  margin-bottom: 20px;
+}
+#buscador h2 {
+  display: grid;
+  justify-content: center;
+  margin: 10px;
+}
+
+#boton {
+  display: grid;
+  justify-content: center;
+}
+
+#boton input {
+  margin: 10px;
+}
+
+#contenido {
+  display: flex;
+  justify-content: center;
+  border-style: ridge;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#contenido {
+  display: grid;
+  justify-content: center;
+}
+
+#contenido h3{
+    display: flex;
+    justify-content: center;
+}
+
+#feedback{
+    display: flex;
+    justify-content: center;
+}
+
+#feedback2{
+  display: flex;
+  justify-content: center;
+}
+#contenidoUsuario{
+    display: flex;
+    justify-content: center;
+    border-style: ridge;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.informacion{
+  display: flex;
+  justify-content: space-evenly;
+}
+#contacto{
+  text-align: center;
+}
+.politicas{
+  text-align: center;
+}
+#separar p{
+  margin-bottom: 25px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+table {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    margin: 45px;     width: 480px; text-align: left;    border-collapse: collapse; }
+
+th {     font-size: 13px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+
+td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d0dafd; color: #339; }
+
+
+@media (min-width:1500px) and(max-width:1920px){
+  #contenedor{
+      max-width: 100%;
+  }
+  
+}
+@media (min-width:600px) and(max-width: 1499px) {
+  #contenedor{
+      max-width: 100%;
+  }
+  #mover{
+    max-width: 80%;
+  }
+
+  
+}
+
+@media (min-width: 100px)and(max-width: 599px) {    
+  #contenedor{
+      max-width: 100%;
+  }
+  body{
+    width: auto;
+  }
+}
